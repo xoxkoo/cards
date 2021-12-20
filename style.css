@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+    
+body {
+    background: url('./src/assets/christmas-bg.png') no-repeat left center;
+    font-family: 'Karla', sans-serif;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 3rem auto;
+}
